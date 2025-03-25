@@ -26,7 +26,7 @@ const App = () => {
             : t
         )
       );
-    }, 15000);
+    }, 1000);
   };
 
   const saveThought = (id) => {
