@@ -47,7 +47,7 @@ const App = () => {
     <div className={`${styles.app} ${darkMode ? styles.dark : styles.light}`}>
       <Toggle darkMode={darkMode} setDarkMode={setDarkMode} />
 
-      <h1 className={styles.title}>ThoughtStreak 🗯</h1>
+      <h1 className={styles.title}>NoteAngel🗯</h1>
       <AddThought onAddThought={addThought} />
       <ul className={styles.thoughtList}>
         {thoughts.map((thought) => (
