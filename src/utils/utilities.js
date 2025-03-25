@@ -3,5 +3,5 @@ export function generateId() {
 }
 
 export function getNewExpirationTime() {
-  return Date.now() + 3000; // 3 seconds expiration
+  return Date.now() + 1000; // 1 second expiration
 }
