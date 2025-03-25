@@ -1,0 +1,44 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Light Mode - Soft Gradient */
+.light {
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #333;
+}
+
+/* Dark Mode - Deep Midnight */
+.dark {
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  color: #fff;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Thought List */
+.thoughtList {
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

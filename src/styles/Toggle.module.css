@@ -1,0 +1,21 @@
+.toggle {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  background: transparent; /* Fully blends into the background */
+  color: inherit; /* Inherits text color for perfect blending */
+  transition: transform 0.2s ease-in-out;
+}
+
+.toggle:hover {
+  transform: scale(1.1);
+}
